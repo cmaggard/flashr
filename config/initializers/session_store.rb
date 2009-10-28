@@ -5,8 +5,8 @@
 # Make sure the secret is at least 30 characters and all random, 
 # no regular words or you'll be exposed to dictionary attacks.
 ActionController::Base.session = {
-  :key    => "_CHANGEME_session",
-  :secret => "CHANGESESSION"
+  :key    => "_flashr_session",
+  :secret => "19aada6db33fdc137b1639c989c0e054"
 }
 
 # Use the database for sessions instead of the cookie-based default,
